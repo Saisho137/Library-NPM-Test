@@ -12,6 +12,9 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "default": "./dist/index.js"
+  },
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist",
