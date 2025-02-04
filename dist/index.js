@@ -1,4 +1,5 @@
 function greet(nombre) {
-  return "Hola, ".concat(nombre, "!");
+    return `Hola, ¡${nombre}!`;
 }
 export default greet;
+//# sourceMappingURL=index.js.map
